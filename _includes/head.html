@@ -32,4 +32,19 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Wishpond embed code -->
+  <script type="text/javascript">
+  (function(d, s, id) {
+   window.Wishpond = window.Wishpond || {};
+   Wishpond.merchantId = '1222955';
+   Wishpond.writeKey = 'bdb045b772a2';
+   var js, wpjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = "//cdn.wishpond.net/connect.js";
+   wpjs.parentNode.insertBefore(js, wpjs);
+  }(document, 'script', 'wishpond-connect'));
+  </script>
+  <div class="wishpond-campaign" data-wishpond-id="1814849" data-wishpond-href="https://www.wishpond.com/lp/1814849/"></div>
 </head>
